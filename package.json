@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/gv11181989/covidZahlenBremen/issues"
   },
-  "homepage": "https://github.com/gv11181989/covidZahlenBremen#readme"
+  "homepage": "https://github.com/gv11181989/covidZahlenBremen#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.7.0",
+    "nodemon": "^2.0.5"
+  }
 }
