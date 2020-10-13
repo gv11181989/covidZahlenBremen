@@ -1,0 +1,19 @@
+{
+  "name": "covidzahlenbremen",
+  "version": "1.0.0",
+  "description": "Bremen Covid alerts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gv11181989/covidZahlenBremen.git"
+  },
+  "author": "Gourav Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gv11181989/covidZahlenBremen/issues"
+  },
+  "homepage": "https://github.com/gv11181989/covidZahlenBremen#readme"
+}
