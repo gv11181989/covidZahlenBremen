@@ -9,8 +9,8 @@ const $ = cheerio.load(response.data)
 
 // We can use the same API as jQuery to get the desired result
 //const txt = $('#wrapperOuter').text()
-const table = $("body").find("#wrapperOuter > #wrapperInner > #wrapperDivisions > #wrapperDivisions-2 > #wrapperContent > #content > #main > .text >  table > tbody > .even");
-console.log(table)
+const table = $("table > tbody > tr").eq(4).find("td").eq(4); 
+console.log(table.text())
 // Output: "This is an example paragraph"
 }).catch(function (e) {
   console.log(e);
